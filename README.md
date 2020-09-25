@@ -35,7 +35,7 @@
   - ถ้าเรา train ส่วนนี้ ก็จะแปลงจากรูปสุ่มๆ ให้เป็น content ได้
 - ทำกับ style ด้วย
   - **Style Loss**
-- **Loss** = a*Content_loss + b*Style_loss
+- **Loss** = a Content_loss + b Style_loss + c total_variation_loss
 
 ## References
 
@@ -43,3 +43,4 @@
 - The AI Epiphany (https://www.youtube.com/watch?v=B22nIUhXo4E)
 - A neural Algorithm of Artistic Style (Leon Gatys et al 2015)
 - The AI Epiphany Github Repository (https://github.com/gordicaleksa/pytorch-neural-style-transfer)
+- Keras Neural Style Transfer (https://keras.io/examples/generative/neural_style_transfer/)
